@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG-Store || cart </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shoppingcart.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="img">
+                <h2 style="font-family: 'Georgia', serif; font-size: 2em; color:rgb(4, 21, 39); font-weight: bold; letter-spacing: 1px;">E-market Masters</h2>
+
+            </div>
+            <div class="action">
+                <a href="cart.html" class="shop-icon active "><i class="fa-solid fa-bag-shopping active"></i><span
+                        class="number2"></span></a>
+                <i class="fa-solid fa-bars open " id="openN"></i>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="te">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <a href="#" class="shop-icon active"><i class="fa-solid fa-bag-shopping"></i><span
+                            class="number"></span></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro about">
+        <div class="container">
+            <div class="info">
+                <h1>#cart</h1>
+                <p> add your coupon code & SAVE upto <span>70% OFF!</span> </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-shoosen">
+        <div class="container">
+            <div class="info">
+
+                <div id="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>remove</td>
+                                <td>image</td>
+                                <td>product</td>
+                                <td>size</td>
+                                <td>price</td>
+                                <td>quantity</td>
+                                <td>subtotal</td>
+                            </tr>
+                        </thead>
+                        <tbody id="trrrr">
+                            <!-- <tr>
+                                <td><i class="fa-regular fa-circle-xmark"></i></td>
+                                <td> <img src="img/products/f1.jpg" alt=""></td>
+                                <td>tshirt</td>
+                                <td>medium</td>
+                                <td>234$</td>
+                                <td>
+                                    <div class="cont">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                        <h2>1</h2>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </div>
+                                </td>
+                                <td>234$</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-regular fa-circle-xmark"></i></td>
+                                <td> <img src="img/products/f1.jpg" alt=""></td>
+                                <td>tshirt</td>
+                                <td>medium</td>
+                                <td>234$</td>
+                                <td>
+                                    <div class="cont">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                        <h2>1</h2>
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </div>
+                                </td>
+                                <td>234$</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="no-product">
+                    <h1>you don't have any elements in cart</h1>
+                    <a href="shop.html">back to shopping</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sheck-out">
+        <div class="container">
+            <div class="sheck">
+                <div class="coupon">
+                    <h2>apply coupon</h2>
+                    <div class="inP">
+                        <input type="text" placeholder="Enter Your coupon" id="coupon">
+                        <input type="submit" value="Apply" id="getcoupon">
+                    </div>
+                </div>
+                <div class="subtotal">
+                    <h3>cart totals</h3>
+                    <table>
+                        <tr>
+                            <td>Cart Subtotal</td>
+                            <td id="subprice">0.LE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>coupon</strong> </td>
+                            <td id="couponMinus">coupon</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong id="allpricetocheck">0.LE</strong></td>
+                        </tr>
+                    </table>
+                    <button class="normal"> proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="contact">
+                    <img src="img/logo.png" alt="">
+                    <h2>contact</h2>
+                    <h3>Address :<span> Mansoura / Delta Higher Institute for Computers</p>
+                    </h3>
+                    <h3>phone: <span>+xxxxxx</p>
+                    </h3>
+                    <h3>hours: <span>10:00 -18:00 All days at the week</p>
+                    </h3>
+                    <h3>follow me</h3>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="pay">
+                    <h3>my account</h3>
+                    <p>from App store or google play</p>
+                    <div class="img">
+                        <img src="img/pay/app.jpg" alt="">
+                        <img src="img/pay/play.jpg" alt="">
+                    </div>
+                    <p>secured payment gate ways</p>
+                    <img src="img/pay/pay.png" alt="">
+                </div>
+                <div class="about same">
+                    <h3>about</h3>
+                    <div class="links">
+                        <a href="#">about us</a>
+                        <a href="#">delivery inforamtion</a>
+                        <a href="#">privacy policy</a>
+                        <a href="#">term & conditions</a>
+                        <a href="#">contact us</a>
+                    </div>
+                </div>
+                <div class="myaccount same">
+                    <h3>my account</h3>
+                    <div class="links">
+                        <a href="#">sign in</a>
+                        <a href="#">view cart</a>
+                        <a href="#">my wishlist</a>
+                        <a href="#">track my order</a>
+                        <a href="#">help</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="by">
+                © BY:<span>E-market Masters </span> Front End Developer (2025)
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/allpage.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/allproductAt.js"></script>
+
+</body>
+
+</html>
